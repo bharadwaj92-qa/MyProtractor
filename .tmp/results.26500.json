@@ -1,0 +1,71 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To test sample",
+    "line": 1,
+    "id": "to-test-sample",
+    "tags": [],
+    "uri": "Features\\SampleModule\\Sample.feature",
+    "elements": [
+      {
+        "id": "to-test-sample;verify-user-is-able-to-login-into-google-site",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify user is able to login into Google site",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user launches Google search engine",
+            "match": {
+              "location": "typeScript\\stepDef\\SampleStep.js:44"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11969000000,
+              "error_message": "Error: Angular could not be found on the page https://www.google.com/. If this is not an Angular application, you may need to turn off waiting for Angular.\n                          Please see \n                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load\n    at D:\\My Project\\UI_Automation\\node_modules\\protractor\\built\\browser.js:720:27\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters any text \"Inflation\" and hits enter",
+            "match": {
+              "location": "typeScript\\stepDef\\SampleStep.js:60"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should see the results",
+            "match": {
+              "location": "typeScript\\stepDef\\SampleStep.js:81"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

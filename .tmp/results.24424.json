@@ -1,0 +1,60 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To test sample",
+    "line": 1,
+    "id": "to-test-sample",
+    "tags": [],
+    "uri": "Features\\SampleModule\\Sample.feature",
+    "elements": [
+      {
+        "id": "to-test-sample;verify-user-is-able-to-login-into-google-site",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify user is able to login into Google site",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user launches Google search engine",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters any text \"Inflation\" and hits enter",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should see the results",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
