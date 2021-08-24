@@ -1,7 +1,6 @@
 {
-  "name": "dataxmine",
+  "name": "rcare",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "authenticator-browser-extension": "^1.4.4",
@@ -22,7 +21,7 @@
     "xlsx": "^0.16.9"
   },
   "devDependencies": {
-    "@types/cucumber": "^4.0.4",
+    "@cucumber/cucumber": "^7.3.1",
     "@types/node": "^9.6.12",
     "@types/selenium-webdriver": "^3.0.8",
     "chai": "^4.2.0",
@@ -30,7 +29,7 @@
     "cucumber": "^4.1.0",
     "cucumber-html-reporter": "^4.0.2",
     "mkdirp": "^0.5.1",
-    "protractor": "^5.4.1",
+    "protractor": "^7.0.0",
     "protractor-cucumber-framework": "^5.0.0",
     "protractor-helpers": "^1.1.473",
     "protractor-multiple-cucumber-html-reporter-plugin": "^1.7.0",
@@ -47,6 +46,8 @@
     "webdriver": "webdriver-manager start",
     "update-chrome": "webdriver-manager update --chromedriver"
   },
-  "author": "Shashi Kumar",
-  "license": "ISC"
+  "keywords": [],
+  "author": "Jagannath Reddy",
+  "license": "MIT",
+  "description": ""
 }

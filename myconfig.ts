@@ -9,7 +9,8 @@ export const config: Config = {
     chromeDriver:"../modules/02.resources/ChromeDriver/chromedriver.exe",
     framework: "custom",
     frameworkPath: require.resolve("protractor-cucumber-framework"),
-    specs: ["../Features/SampleModule/Sample.feature"],
+    specs: ["../Features/RPMmodule/RPMWorklist.feature"],
+    // specs: ["../Features/LoginModule/Login.feature"],
     onPrepare: () => {
         browser.manage().window().maximize();
         browser.driver.manage().timeouts().setScriptTimeout(120000);
